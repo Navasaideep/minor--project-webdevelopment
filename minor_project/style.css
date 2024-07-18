@@ -1,0 +1,273 @@
+/* Styles from your original CSS with minor adjustments */
+
+.nav-bar {
+    background-color: rgb(46, 46, 51);
+    color: aliceblue;
+    padding: 20px;
+    position: -webkit-sticky;
+    top: 0;
+    position: sticky;
+    z-index: 1000;
+
+}
+
+.nav-head {
+    position: -webkit-sticky;
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+    position: sticky;
+}
+
+.nav-links {
+    position: -webkit-sticky;
+    top:0;
+    display: flex;
+    padding: 20px;
+    position: sticky;
+}
+
+.nav-links a {
+    font-size: 20px;
+    text-decoration: none;
+    color: aliceblue;
+    padding: 10px;
+    position: -webkit-sticky;
+}
+
+.nav-links a:hover {
+    background-color: rgb(255, 255, 255);
+    color: aqua;
+}
+
+.button {
+    font-size: 16px;
+    background-color: rgb(46, 46, 51);
+    color: aliceblue;
+    border: none;
+    cursor: pointer;
+    padding: 10px 15px;
+}
+
+.drop-down .button {
+    background-color: rgb(46, 46, 51);
+    font-size: 20px;
+    color: aliceblue;
+    border: none;
+}
+
+.drop-down a {
+    display: block;
+    color: aliceblue;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.drop-down .content {
+    display: none;
+    position: absolute;
+    background-color: rgb(46, 46, 51);
+    min-width: 100px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+
+.drop-down:hover .content {
+    display: block;
+}
+.image{
+        max-width: 600px; /* Set maximum width for the container */
+        margin: 0 auto; /* Center the container horizontally */
+        overflow: hidden; /* Hide any overflow if the image exceeds container size */
+        border-radius: 10px; /* Rounded corners */
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+.main-content{
+    text-align: center;
+    
+    color: rgb(111, 191, 121);
+}
+.main-content h1{
+    text-align: left;
+    padding-left: 10px;
+    color: rgb(17, 155, 65);
+}
+
+.sub-cont{
+    padding-top: 170px;
+    font-size: 20px;
+}
+.place img{
+    width: 50vh;
+    border: 2cm;
+    border-radius: 5%;
+    padding: 0px;
+    border-color: rgba(127, 255, 212, 0.933);
+    padding-left: 0px;
+    border-radius: 5px;
+    border: 2px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.head{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:rgb(4, 7, 7);
+    font-size: 30px;
+    padding-left: 20px;
+}
+.place{
+    display: flex;
+   border-color: aqua;
+   border: 20px;
+   margin: 20px;
+   padding: 20px;
+   
+}
+.place p{
+    padding-left: 20px;
+    text-align: center;
+}
+.container{
+    display:block;
+    margin: 20px;
+    border: 20px;
+    border-color: aqua;
+   
+}
+h4{
+    text-align: center;
+}
+.main-find{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    margin-top: 50px;
+    padding-left: 45%;
+
+}
+  
+  .up {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5em;
+  }
+  
+  .down {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5em;
+  }
+  
+  .card1 {
+    width: 90px;
+    height: 90px;
+    outline: none;
+    border: none;
+    background: white;
+    border-radius: 90px 5px 5px 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: .2s ease-in-out;
+  }
+  
+  .instagram {
+    margin-top: 1.5em;
+    margin-left: 1.2em;
+    fill: #cc39a4;
+  }
+  
+  .card2 {
+    width: 90px;
+    height: 90px;
+    outline: none;
+    border: none;
+    background: white;
+    border-radius: 5px 90px 5px 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: .2s ease-in-out;
+  }
+  
+  .facebook {
+    margin-top: 1.5em;
+    margin-left: -.9em;
+    fill: #03A9F4;
+  }
+  
+  .card3 {
+    width: 90px;
+    height: 90px;
+    outline: none;
+    border: none;
+    background: white;
+    border-radius: 5px 5px 5px 90px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: .2s ease-in-out;
+  }
+  
+  .whatsapp {
+    margin-top: -.6em;
+    margin-left: 1.2em;
+    fill: #00ff00;
+  }
+  
+  .card4 {
+    width: 90px;
+    height: 90px;
+    outline: none;
+    border: none;
+    background: white;
+    border-radius: 5px 5px 90px 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: .2s ease-in-out;
+  }
+  
+  .gmail {
+    margin-top: -.9em;
+    margin-left: -1.2em;
+    fill: #f14336;
+  }
+  
+  .card1:hover {
+    cursor: pointer;
+    scale: 1.1;
+    background-color: #cc39a4;
+  }
+  
+  .card1:hover .instagram {
+    fill: white;
+  }
+  
+  .card2:hover {
+    cursor: pointer;
+    scale: 1.1;
+    background-color: #1877f2;
+  }
+  
+  .card2:hover .facebook {
+    fill: white;
+  }
+  
+  .card3:hover {
+    cursor: pointer;
+    scale: 1.1;
+    background-color: #00ff00;
+  }
+  
+  .card3:hover .whatsapp {
+    fill: white;
+  }
+  
+  .card4:hover {
+    cursor: pointer;
+    scale: 1.1;
+    background-color: #FF0004;
+  }
+  
+  .card4:hover .gmail {
+    fill: white;
+  }
+  .passion{
+    font-size: 1.5em;
+    text-decoration: none;
+    text-align: right;
+    color: black;
+  }
